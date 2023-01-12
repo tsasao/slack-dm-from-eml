@@ -23,10 +23,14 @@
 OAuth & PermissionsのページでBot Token Scopesに以下を追加します。
 - chat:write
 - mpim:write
+
 Install to Workspaceボタンを押して、登録します。
+
+`xoxb-` ではじまるBot User OAuth Tokenを控えておきます。
 
 Slackのゲストは、そのゲストが参加しているチャンネルに参加しているユーザとだけDMができる仕様ですので、
 適当なチャンネルのIntegrationsタブ内Appsパネルから、Add appsをクリックし、mail-botを追加します。
+（メンバーの場合は、この作業は不要です。）
 
 また、送信したいユーザのIDを調べておきます。
 Slackでユーザを選んでProfileを表示させた状態で、︙内にあるCopy member IDで取得できるUではじまる文字です。
